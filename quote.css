@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #E8E7E3;
+}
+
+.main{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6%;
+	padding-top: 3%;
+	background-color: white;
+	box-shadow: 0 10px 6px -6px #777;
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.quote-content{
+	flex-basis: 50vh;
+}
+
+.quote-para{
+	color: #444444;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 1.3em;
+	width: 80%;
+	line-height: 1.4em;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2%;
+	text-align: center;
+}
+
+.quote-para:before { content: open-quote; }
+.quote-para:after  { content: close-quote; }
+
+.author-para{
+	padding-top: 3%;
+	padding-right: 5%;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.2em;
+	text-align: right;
+}
+
+.buttons{
+	text-align: center;
+	flex-grow: 1;
+}
+
+.next-quote{
+	border-radius: 4px;
+	padding: 1.5%;
+	font-size: 1em;
+	outline: 0;
+	border:0;
+	font-weight: bold;
+	color: white;
+	background-image: linear-gradient(to bottom, #49c0f0, #2CAFE3);
+	text-shadow: 2px 2px 3px rgba(255,255,255,0.1)
+}
+
+.next-quote:hover{
+	background-image: linear-gradient(to bottom, #1AB0EC, #1A92C2);
+}
+
+.twitter-button{
+	background-image: linear-gradient(to bottom, #49c0f0, #2CAFE3);
+  	color: white;
+  	outline: 0;
+  	border: 0;
+  	padding: 1.5%;
+  	margin-left: 4%;
+  	margin-top: 2%;
+}
+
+.twitter-button:hover{
+	background-image: linear-gradient(to bottom, #1AB0EC, #1A92C2);
+}

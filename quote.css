@@ -84,3 +84,11 @@ body{
 .twitter-button:hover{
 	background-image: linear-gradient(to bottom, #1AB0EC, #1A92C2);
 }
+
+@media screen and (max-width:425px){
+	{
+		width: 100vw;
+		height: 100vh;
+	}
+}
+		
